@@ -15,11 +15,6 @@
   "- database: the country edition of the maxmind geoip database. Can be either a File or a String."
   class)
 
-(comment
-  (let [ls (LookupService. "data/GeoIP.dat" LookupService/GEOIP_MEMORY_CACHE)
-        result (.getCountry ls "127.0.0.1")]
-    [(.getCode result) (.getName result)]))
-
 (defmethod init-geoip String
   [^String database-path]
   (let [service (LookupService. database-path LookupService/GEOIP_MEMORY_CACHE)]
