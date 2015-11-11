@@ -9,4 +9,4 @@ pom.xml
 .lein-failures
 .lein-plugins
 .lein-repl-history
-data/*.dat
+/data/*.dat

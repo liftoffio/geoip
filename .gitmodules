@@ -1,3 +1,0 @@
-[submodule "vendor/maxmind_geoip_api_java"]
-	path = vendor/maxmind_geoip_api_java
-	url = https://github.com/maxmind/geoip-api-java.git
