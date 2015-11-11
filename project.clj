@@ -1,4 +1,4 @@
-(defproject geoip "0.1.0"
+(defproject liftoff/geoip "0.1.0"
   :description "A thin wrapper around Maxmind's GeoIP Java API."
   :url "http://github.com/liftoff/geoip"
   :license {:name "Eclipse Public License"
